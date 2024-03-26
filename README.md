@@ -231,7 +231,6 @@ profiles:
         - "--application ${application}"
         - "--hlq ${zopeneditor.userbuild.userSettings.dbbHlq}"
         - "--outDir ${zopeneditor.userbuild.userSettings.dbbLogDir}"
-        - "--dependencyFile ${dependencyFile}"
       additionalDependencies:
         - application-conf
         - "zapp*"
